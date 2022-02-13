@@ -12,13 +12,11 @@ import {
   Quantity,
 } from './Profile.styled';
 export default function Profile({
-  user: {
-    username,
-    tag,
-    location,
-    avatar,
-    stats: { followers, views, likes },
-  },
+  username,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
 }) {
   return (
     <Wrapper>
